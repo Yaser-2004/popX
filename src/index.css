@@ -1,0 +1,78 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 260 60% 90%;
+    --secondary-foreground: 260 30% 40%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 262 83% 58%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-gray-100 text-foreground;
+  }
+}
+
+.mobile-container {
+  max-width: 375px;
+  min-height: 667px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow-y: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-label {
+  @apply text-sm text-purple-500 font-medium mb-1 block;
+}
+
+.form-input {
+  @apply w-full px-3 py-2 border border-gray-200 rounded-md mb-4 text-gray-700;
+}
+
+.primary-button {
+  @apply w-full bg-primary text-white py-3 rounded-md font-medium;
+}
+
+.secondary-button {
+  @apply w-full bg-secondary text-secondary-foreground py-3 rounded-md font-medium;
+}
