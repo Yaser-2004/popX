@@ -28,7 +28,7 @@ const Account = () => {
         </div>
       </div>
       
-      <div className="p-4 text-gray-600 border-b border-dashed text-sm"
+      <div className="p-4 text-gray-600 border-b border-dashed text-xs"
         style={{
           borderImageSlice: 1,
           borderImageSource:

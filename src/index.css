@@ -48,7 +48,7 @@
 }
 
 .mobile-container {
-  max-width: 375px;
+  width: 340px;
   min-height: 667px;
   margin: 0 auto;
   background-color: white;
@@ -59,14 +59,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.form-label {
-  @apply text-sm text-purple-500 font-medium mb-1 block;
-}
-
-.form-input {
-  @apply w-full px-3 py-2 border border-gray-200 rounded-md mb-4 text-gray-700;
 }
 
 .primary-button {

@@ -15,9 +15,9 @@ const Login = () => {
 
   return (
     <div className="p-6 bg-[#F7F9F8]">
-      <h1 className="text-3xl font-bold mb-2">Signin to your PopX account</h1>
+      <h1 className="text-2xl font-bold mb-2">Signin to your <br /> PopX account</h1>
       <p className="text-gray-500 mb-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.
       </p>
 
       <form onSubmit={handleSubmit}>

@@ -29,7 +29,7 @@ const Register = () => {
 
   return (
     <div className="p-6 bg-[#F7F9F8]">
-      <h1 className="text-3xl font-bold mb-2 ">Create your PopX account</h1>
+      <h1 className="text-2xl font-bold mb-2 ">Create your <br />PopX account</h1>
 
       <form onSubmit={handleSubmit} className="mt-6">
         <div className='relative'>
